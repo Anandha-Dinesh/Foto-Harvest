@@ -1,0 +1,24 @@
+{
+  "name": "imagescrapingapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cheerio": "^1.0.0-rc.12",
+    "chromium": "^3.0.3",
+    "express": "^4.18.2",
+    "fs-extra": "^11.1.1",
+    "nodemon": "^2.0.22",
+    "puppeteer": "^20.5.0",
+    "request": "^2.88.2",
+    "unirest": "^0.6.0",
+    "zip-local": "^0.3.5"
+  }
+}
